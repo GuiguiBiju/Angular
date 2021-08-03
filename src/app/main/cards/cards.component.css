@@ -1,0 +1,49 @@
+.horizontal{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+img{
+    width: 400px;
+}
+.card{
+    width: 400px;
+    background-color: #fff;
+
+    box-shadow: 0 0 25px 8px rgb(102, 53, 34);
+  /* in order: x offset, y offset, blur size, spread size, color */
+  /* blur size and spread size are optional (they default to 0) */
+
+}
+.card-body{
+    background-color: rgb(25, 25, 26);
+}
+p, a, h5{
+    color: rgb(194, 192, 192);
+}
+a{
+    background-image: linear-gradient(to right, #703121 0%, #da8626  51%, #2b100b  100%)
+}
+a {
+margin: 10px;
+padding: 10px 25px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 10px rgb(219, 29, 4);
+border-radius: 10px;
+display: block;
+}
+
+a:hover {
+       background-position: right center; /* change the direction of the change here */
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+    
